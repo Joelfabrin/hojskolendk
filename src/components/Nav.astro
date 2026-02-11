@@ -1,16 +1,26 @@
 ---
 import Button from '../components/Button.astro';
+import "../css/nav.css";
 ---
 
-<nav>
-			<a href="/">Logo</a>
+<nav class="nav_flex">
+	
+		<a href="/"><img class="hojskolenlogo" src="assets/hojskolendklogo.svg" alt="Højskolendk logo"></a>
+			
+			
+
+			<div class="nav_a">
 			<a href="">Rejsekalender</a>
 			<a href="">Højskoleophold</a>
 			<a href="">Sommerhøjskole</a>
 			<a href="">Priser</a>
 			<a href="">Om os</a>
 			<a href="">Kontakt os</a>
+			</div>
+
+			<div>
 			<Button title="Bestil ophold" variant="primary"/>
+			</div>
 
 
 
