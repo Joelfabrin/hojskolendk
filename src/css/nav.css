@@ -1,0 +1,26 @@
+.hojskolenlogo {
+  height: 20px;
+}
+
+.nav_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  font-size: 0.9rem;
+  letter-spacing: 0.28px;
+}
+
+.nav_a {
+  display: flex;
+  flex-direction: row;
+  gap: 1.8rem;
+}
