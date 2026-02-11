@@ -1,5 +1,5 @@
 .hojskolenlogo {
-  height: 20px;
+  height: 25px;
 }
 
 .nav_flex {
@@ -7,7 +7,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 3rem;
+  padding: 0.6rem 3.8rem;
 }
 
 a {
